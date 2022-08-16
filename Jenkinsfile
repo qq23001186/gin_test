@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('pull code') {
             steps {
-                git credentialsId: 'gin-test-jenkins', url: 'https://github.com/qq23001186/gin_test.git'
+                //git credentialsId: 'gin-test-jenkins', url: 'https://github.com/qq23001186/gin_test.git'
             }
         }
         stage('build project') {
